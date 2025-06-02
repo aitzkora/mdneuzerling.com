@@ -50,3 +50,5 @@ artefacts
 /models/
 *.DS_Store
 resources/
+
+/.quarto/
