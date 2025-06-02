@@ -3,7 +3,7 @@ title: "Why I no longer code in my free time"
 author: ~
 date: '2024-06-05'
 slug: why-i-no-longer-code-in-my-free-time
-thumbnail: "/img/revenants.jpg"
+thumbnail: "/img/revenants.webp"
 output: hugodown::md_document
 rmd_hash: a1306ec8052057a1
 
