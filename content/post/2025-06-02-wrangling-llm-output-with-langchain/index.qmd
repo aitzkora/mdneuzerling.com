@@ -1,15 +1,23 @@
 ---
 title: "Wrangling LLM output with LangChain"
-author: ~
+author: David Neuzerling
 date: '2025-06-02'
 slug: wrangling-llm-output-with-langchain
 thumbnail: "/img/skaven.jpg"
-output: hugodown::md_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval=FALSE, python.reticulate = FALSE)
-```
+execute:
+  eval: false
+  output: asis
+
+jupyter: false
+
+format:
+  markdown:
+    output-file: index.md
+    wrap: none
+    code-line-numbers: false
+    toc: false
+---
 
 The toughest prediction any data scientist makes is deciding which tools are worth learning. The explosion of generative AI only makes this harder. My prediction: LangChain is here to stay or, at least, the patterns behind it are.
 
