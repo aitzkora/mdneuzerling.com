@@ -33,3 +33,7 @@ body, input, select, textarea {
 /* .post > div, .post > p {
 	margin: 0 1em; 
 } */
+
+div.highlight, pre.chroma {
+  margin-bottom: 1.5em;
+}
