@@ -12,6 +12,12 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   [markup.goldmark.renderer]
     unsafe = true
 
+  [markup.highlight]
+    style = "monokai"       
+    lineNos = true
+    guessSyntax = true
+
+
 [Author] # Used in authorbox
   name = "David Neuzerling"
   bio = "Data, R, Python"
@@ -22,7 +28,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   copyright = 'The content of this blog is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (http://creativecommons.org/licenses/by-nc-nd/4.0/) except where stated otherwise' # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
-  twitter_cards = true # Enable Twitter Cards if true
+  twitter_cards = false # Enable Twitter Cards if true
   readmore = false # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
   toc = false # Enable Table of Contents
