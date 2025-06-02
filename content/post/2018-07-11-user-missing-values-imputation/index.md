@@ -17,7 +17,7 @@ These are my notes for the third and final tutorial of useR2018, and the tutoria
 <div class="highlight">
 
 <!--html_preserve-->
-{{% tweet "1015223952594128897" %}}<!--/html_preserve-->
+tweet removed due to API changes
 
 </div>
 
@@ -143,8 +143,7 @@ I don't remember a whole lot of the linear algebra I learnt a long time ago, so 
 
 <div class="highlight">
 
-<!--html_preserve-->
-{{% tweet "997147577173925888" %}}<!--/html_preserve-->
+tweet removed due to API changes
 
 </div>
 

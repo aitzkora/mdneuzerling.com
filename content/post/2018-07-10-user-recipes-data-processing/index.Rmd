@@ -22,9 +22,7 @@ to learn more about preprocessing.
 
 Also, the `recipes` package is *adorable*.
 
-```{r echo = FALSE}
-blogdown::shortcode('tweet', '1016541132057075712')
-```
+![](https://raw.githubusercontent.com/tidymodels/recipes/main/man/figures/logo.png)
 
 I'm going to follow along with 
 [Max's slides](https://github.com/topepo/user2018), making some comments along 

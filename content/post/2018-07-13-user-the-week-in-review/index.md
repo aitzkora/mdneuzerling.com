@@ -43,8 +43,7 @@ Talk highlights
 
 <div class="highlight">
 
-<!--html_preserve-->
-{{% tweet "1014132180853903360" %}}<!--/html_preserve-->
+tweet removed due to API changes
 
 </div>
 
@@ -54,8 +53,7 @@ Talk highlights
 
 <div class="highlight">
 
-<!--html_preserve-->
-{{% tweet "1017552963861037056" %}}<!--/html_preserve-->
+tweet removed due to API changes
 
 </div>
 

@@ -22,7 +22,7 @@ Also, the `recipes` package is *adorable*.
 <div class="highlight">
 
 <!--html_preserve-->
-{{% tweet "1016541132057075712" %}}<!--/html_preserve-->
+![](https://raw.githubusercontent.com/tidymodels/recipes/main/man/figures/logo.png)
 
 </div>
 
