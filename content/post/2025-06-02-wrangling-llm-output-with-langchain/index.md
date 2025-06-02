@@ -262,13 +262,18 @@ There are some new concepts within this code block. Rather than `invoke` I'm cal
 The first two test cases are fine. The first one to fail is this prompt, which fails to recognise the relationship between the "greenback" and America about 20% of the time, returning "Unknown" instead.
 
 ```python
-# AssertionError: 2/10 failures for prompt 'Determine the relationship between iron ore futures and the greenback': expected 'United States' but got ['Unknown', 'Unknown']
+# AssertionError: 2/10 failures for prompt 'Determine the relationship between
+# iron ore futures and the greenback': expected 'United States' but got
+# ['Unknown', 'Unknown']
 ```
 
 The final prompt fails 100% of the time --- the model cannot recognise that the America's Cup isn't necessarily about the United States.
 
 ```python
-# AssertionError: 10/10 failures for prompt 'The Winner of the 1983 America's Cup': expected 'Australia' but got ['United States', 'United States', 'United States', 'United States', 'United States', 'United States', 'United States', 'United States', 'United States', 'United States']
+# AssertionError: 10/10 failures for prompt 'The Winner of the 1983 America's
+# Cup': expected 'Australia' but got ['United States', 'United States',
+# 'United States', 'United States', 'United States', 'United States',
+# 'United States', 'United States', 'United States', 'United States']
 ```
 
 There are a few options to deal with this:
