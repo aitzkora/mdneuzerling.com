@@ -263,6 +263,8 @@ async def test_determine_country(test_case, expected_country):
 
 ```
 
+There are some new concepts within this code block. Rather than `invoke` I'm calling the `abatch` method (short for "asynchronous batch"). This, along with the `await` keyword, allows for the 10 API calls to be executed concurrently.
+
 The first two test cases are fine. The first one to fail is this prompt, which fails to recognise the relationship between the "greenback" and America about 20% of the time, returning "Unknown" instead.
 
 ```{python eval=FALSE}

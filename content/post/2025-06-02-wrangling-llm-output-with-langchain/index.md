@@ -9,7 +9,7 @@ execute:
   output: asis
 jupyter: false
 slug: wrangling-llm-output-with-langchain
-thumbnail: /img/skaven.jpg
+thumbnail: /img/skaven.webp
 title: Wrangling LLM output with LangChain
 toc-title: Table of contents
 ---
@@ -256,6 +256,8 @@ async def test_determine_country(test_case, expected_country):
         f"{len(failures)}/{REPEAT_TESTS_N_TIMES} failures for prompt '{description}': expected '{expected_country}' but got {failures}"
     )
 ```
+
+There are some new concepts within this code block. Rather than `invoke` I'm calling the `abatch` method (short for "asynchronous batch"). This, along with the `await` keyword, allows for the 10 API calls to be executed concurrently.
 
 The first two test cases are fine. The first one to fail is this prompt, which fails to recognise the relationship between the "greenback" and America about 20% of the time, returning "Unknown" instead.
 
