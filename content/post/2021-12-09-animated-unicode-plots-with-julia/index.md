@@ -27,7 +27,7 @@ function move_up(s::AbstractString)
     nothing
 end
 
-function animate(plots; frame_delay = 0)
+function animate(frames; frame_delay = 0)
     print("\u001B[?25l") # hide cursor
     for frame in frames[1:end-1]
         print(frame)
